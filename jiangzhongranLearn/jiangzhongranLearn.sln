@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jiangzhongranLearn", "jiang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterFive", "ChapterFive\ChapterFive.csproj", "{6B193858-371E-4DEB-A9E2-065E1412817E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterSix", "ChapterSix\ChapterSix.csproj", "{92A07FFB-24E8-48C1-8D8A-4F681A15AF49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{6B193858-371E-4DEB-A9E2-065E1412817E}.Debug|x86.Build.0 = Debug|x86
 		{6B193858-371E-4DEB-A9E2-065E1412817E}.Release|x86.ActiveCfg = Release|x86
 		{6B193858-371E-4DEB-A9E2-065E1412817E}.Release|x86.Build.0 = Release|x86
+		{92A07FFB-24E8-48C1-8D8A-4F681A15AF49}.Debug|x86.ActiveCfg = Debug|x86
+		{92A07FFB-24E8-48C1-8D8A-4F681A15AF49}.Debug|x86.Build.0 = Debug|x86
+		{92A07FFB-24E8-48C1-8D8A-4F681A15AF49}.Release|x86.ActiveCfg = Release|x86
+		{92A07FFB-24E8-48C1-8D8A-4F681A15AF49}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
