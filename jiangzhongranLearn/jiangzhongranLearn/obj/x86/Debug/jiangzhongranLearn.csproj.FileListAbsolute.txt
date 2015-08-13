@@ -1,4 +1,0 @@
-D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\bin\Debug\jiangzhongranLearn.exe
-D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\bin\Debug\jiangzhongranLearn.pdb
-D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.exe
-D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.pdb
