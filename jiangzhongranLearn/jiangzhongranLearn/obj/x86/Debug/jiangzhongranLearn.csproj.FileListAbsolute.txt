@@ -2,3 +2,5 @@ D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\bin\Debug\jiangzho
 D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\bin\Debug\jiangzhongranLearn.pdb
 D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.exe
 D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.pdb
