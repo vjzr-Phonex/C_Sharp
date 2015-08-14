@@ -2,3 +2,7 @@ D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\ChapterFive\bin\Debug\ChapterFive.exe
 D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\ChapterFive\bin\Debug\ChapterFive.pdb
 D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\ChapterFive\obj\x86\Debug\ChapterFive.exe
 D:\Phoenix\WorkSpace-C#\jiangzhongranLearn\ChapterFive\obj\x86\Debug\ChapterFive.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterFive\bin\Debug\ChapterFive.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterFive\bin\Debug\ChapterFive.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterFive\obj\x86\Debug\ChapterFive.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterFive\obj\x86\Debug\ChapterFive.pdb
