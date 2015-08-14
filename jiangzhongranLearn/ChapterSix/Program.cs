@@ -9,13 +9,67 @@ namespace ChapterSix
     {
         static void Main(string[] args)
         {
-            Person[] persons = new Person[2];
-            persons[0] = new Person() {FirstName="Jiang",LastName="Zhongran"};
-            persons[1] = new Person() { FirstName = "Li", LastName = "Xinyu" };
-            foreach(var i in persons)
+            var musicTitles = new MusicTitles();
+            foreach(var m in musicTitles)
             {
-                Console.WriteLine(i.ToString());
+                Console.WriteLine(m);
             }
+            Console.WriteLine("---------------------------------");
+            foreach (var m in musicTitles.Reverse())
+            {
+                Console.WriteLine(m);
+            }
+            Console.WriteLine("---------------------------------");
+            foreach(var m in musicTitles.Subset(0,3))
+            {
+                Console.WriteLine(m);
+            }
+            Console.WriteLine("---------------------------------");
+
+            //var helloCollection = new HelloCollection();
+            //foreach (var i in helloCollection)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //Person[] persons = new Person[2];
+            //persons[0] = new Person() {FirstName="Jiang",LastName="Zhongran"};
+            //persons[1] = new Person() { FirstName = "Li", LastName = "Xinyu" };
+            //foreach(var i in persons)
+            //{
+            //    Console.WriteLine(i.ToString());
+            //}
+
+
+            //int[,] test = new int[2, 3];
+            //test[0, 0] = 0;
+            //test[0, 1] = 1;
+            //test[0, 2] = 2;
+            //test[1, 0] = 3;
+            //test[1, 1] = 4;
+            //test[1, 2] = 5;
+            //foreach (var i in test)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //int[] one = {1,2,3,4,5};
+            //int[] two = {10,20,30,40,50};
+            //var segment = new ArraySegment<int>(one,2,2);
+            //for (int i = segment.Offset; i < segment.Offset+segment.Count;i++ )
+            //{
+            //    Console.WriteLine(segment.Array[i]);
+            //}
+
+            
+            //Array test = Array.CreateInstance(typeof(int),2);
+            //test.SetValue(0,0);
+            //test.SetValue(1,1);
+            //foreach(var i in test)
+            //{
+            //    Console.WriteLine(i);
+            //}
         }
     }
 }
