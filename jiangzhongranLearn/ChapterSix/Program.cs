@@ -10,13 +10,19 @@ namespace ChapterSix
         static void Main(string[] args)
         {
             var helloCollection = new HelloCollection();
-            byte test = 255;
-            test++;
+            byte? test = 1;
+            string s1 = "abc";
+            string s2 = "ab" + "c";
+            if(s1 == s2)
+            {
+                Console.WriteLine("s1 equals s2!");
+            }
+            byte te2 = test ?? 10;
             if("12" is object)
             {
                 Console.WriteLine(typeof(HelloCollection));
             }
-            Console.WriteLine(test);
+            Console.WriteLine(te2);
 
             //var helloCollection = new HelloCollection();
             //foreach (var i in helloCollection)
