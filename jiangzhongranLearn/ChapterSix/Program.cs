@@ -9,22 +9,14 @@ namespace ChapterSix
     {
         static void Main(string[] args)
         {
-            var musicTitles = new MusicTitles();
-            foreach(var m in musicTitles)
+            var helloCollection = new HelloCollection();
+            byte test = 255;
+            test++;
+            if("12" is object)
             {
-                Console.WriteLine(m);
+                Console.WriteLine(typeof(HelloCollection));
             }
-            Console.WriteLine("---------------------------------");
-            foreach (var m in musicTitles.Reverse())
-            {
-                Console.WriteLine(m);
-            }
-            Console.WriteLine("---------------------------------");
-            foreach(var m in musicTitles.Subset(0,3))
-            {
-                Console.WriteLine(m);
-            }
-            Console.WriteLine("---------------------------------");
+            Console.WriteLine(test);
 
             //var helloCollection = new HelloCollection();
             //foreach (var i in helloCollection)
