@@ -14,6 +14,10 @@ namespace ChapterSix
             Vector v3 = v1 + v2;
             Console.WriteLine(v3);
 
+            Currency c = new Currency(12,33);
+            float f = c;
+            Console.WriteLine(f);
+
             //var helloCollection = new HelloCollection();
             //byte? test = 1;
             //string s1 = "abc";

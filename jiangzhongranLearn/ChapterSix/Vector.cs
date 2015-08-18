@@ -36,5 +36,26 @@ namespace ChapterSix
             result.z += rhs.z;
             return result;
         }
+
+        public static Vector operator * (double lhs,Vector rhs)
+        {
+            return new Vector(rhs.x * lhs, rhs.y * lhs, rhs.z * lhs);
+        }
+
+        public static bool operator ==(Vector lhs,Vector rhs)
+        {
+            if (lhs.x == rhs.x && lhs.y == rhs.y && lhs.z == rhs.z)
+                return true;
+            else 
+                return false;
+        }
+
+        public static bool operator !=(Vector lhs, Vector rhs)
+        {
+            if (lhs == rhs)
+                return false;
+            else
+                return true;
+        }
     }
 }
