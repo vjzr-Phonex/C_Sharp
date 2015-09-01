@@ -31,8 +31,9 @@ namespace ChapterEight
         {
             MakeGreet mg ;
             mg = EnglishGreet;
+            mg += ChineseGreet;
             Program p = new Program();
-            p.Greet("Barak Obama", EnglishGreet);
+            p.Greet("Barak Obama", mg);
             p.Greet("姜仲然",ChineseGreet);
             //<------------------------>
             //int a = 20;
