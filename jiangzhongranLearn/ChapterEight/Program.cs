@@ -25,16 +25,26 @@ namespace ChapterEight
 
         public static void ChineseGreet(string name)
         {
+            string.Format("{0}",12);
             Console.WriteLine("{0} 向你问好！",name);
         }
+
         static void Main(string[] args)
         {
-            MakeGreet mg ;
-            mg = EnglishGreet;
-            mg += ChineseGreet;
-            Program p = new Program();
-            p.Greet("Barak Obama", mg);
-            p.Greet("姜仲然",ChineseGreet);
+            Heater heater = new Heater();
+            Alarm al = new Alarm();
+            Display ds = new Display();
+            heater.BoilEvent += al.MakeAlert;
+            heater.BoilEvent += Display.ShowMsg;
+
+            heater.BoilWater();
+            //-----------------------------
+            //MakeGreet mg ;
+            //mg = EnglishGreet;
+            //mg += ChineseGreet;
+            //Program p = new Program();
+            //p.Greet("Barak Obama", mg);
+            //p.Greet("姜仲然",ChineseGreet);
             //<------------------------>
             //int a = 20;
             //GetAString gas = new GetAString(a.ToString);
