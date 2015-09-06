@@ -31,13 +31,51 @@ namespace ChapterEight
 
         static void Main(string[] args)
         {
+
             Heater heater = new Heater();
             Alarm al = new Alarm();
             Display ds = new Display();
             heater.BoilEvent += al.MakeAlert;
             heater.BoilEvent += Display.ShowMsg;
 
-            heater.BoilWater();
+            //<-----------lambda表达式,书上范例----------->
+            string mid = ", middlw part,";
+            Func<string, string> lambda = param =>
+                {
+                    param += mid;
+                    param += "and this was added to the string.";
+                    return param;
+                };
+            Console.WriteLine(lambda("start of string"));
+            Func<string, string> ddd = param =>
+                {
+                    param += "ddd";
+                    return param;
+                };
+            Console.WriteLine(ddd("aaaaa"));
+            //<-----------匿名方法、网络实例----------->
+            //List<string> names = new List<string>();
+            //names.Add("Sunny Chen");
+            //names.Add("Kitty Wang");
+            //names.Add("Sunny Crystal");
+
+            //List<string> found = names.FindAll(
+            //    new Predicate<string>(NameMatches));
+
+            //if (found != null)
+            //{
+            //    foreach (string str in found)
+            //        Console.WriteLine(str);
+            //}   
+
+            //<-----------委托、网络范例---------------->
+            //Heater heater = new Heater();
+            //Alarm al = new Alarm();
+            //Display ds = new Display();
+            //heater.BoilEvent += al.MakeAlert;
+            //heater.BoilEvent += Display.ShowMsg;
+
+            //heater.BoilWater();
             //-----------------------------
             //MakeGreet mg ;
             //mg = EnglishGreet;
@@ -89,7 +127,13 @@ namespace ChapterEight
             //    Console.WriteLine(employee);
             //}
         }
-         
+
+        static bool NameMatches(string name)
+        {
+            return name.StartsWith("sunny",
+                StringComparison.OrdinalIgnoreCase);
+        }   
+
         static void ProcessAndDisplayNumber(DoubleOp action, double value)
         {
                 double result = action(value);
