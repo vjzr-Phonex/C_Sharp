@@ -9,6 +9,10 @@ namespace ChapterNine
     {
         static void Main(string[] args)
         {
+            StringBuilder s = new StringBuilder(10);
+            s.Append("asdfghjkl;a");
+            Console.WriteLine(s.Capacity);
+
         }
     }
 }
