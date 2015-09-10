@@ -9,10 +9,8 @@ namespace ChapterNine
     {
         static void Main(string[] args)
         {
-            StringBuilder s = new StringBuilder(10);
-            s.Append("asdfghjkl;a");
-            Console.WriteLine(s.Capacity);
-
+            Vector v = new Vector();
+            Console.WriteLine("The double is{0,10:E},the int is:{1}",212.223,12);
         }
     }
 }

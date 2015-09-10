@@ -16,7 +16,6 @@ namespace ChapterEight
             for (int i = 0; i <= 100;i++ )
             {
                 temperature = i;
-
                 if(temperature > 95)
                 {
                     if (BoilEvent != null)

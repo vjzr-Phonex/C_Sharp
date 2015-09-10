@@ -32,27 +32,27 @@ namespace ChapterEight
         static void Main(string[] args)
         {
 
-            Heater heater = new Heater();
-            Alarm al = new Alarm();
-            Display ds = new Display();
-            heater.BoilEvent += al.MakeAlert;
-            heater.BoilEvent += Display.ShowMsg;
+            //Heater heater = new Heater();
+            //Alarm al = new Alarm();
+            //Display ds = new Display();
+            //heater.BoilEvent += al.MakeAlert;
+            //heater.BoilEvent += Display.ShowMsg;
 
             //<-----------lambda表达式,书上范例----------->
-            string mid = ", middlw part,";
-            Func<string, string> lambda = param =>
-                {
-                    param += mid;
-                    param += "and this was added to the string.";
-                    return param;
-                };
-            Console.WriteLine(lambda("start of string"));
-            Func<string, string> ddd = param =>
-                {
-                    param += "ddd";
-                    return param;
-                };
-            Console.WriteLine(ddd("aaaaa"));
+            //string mid = ", middlw part,";
+            //Func<string, string> lambda = param =>
+            //    {
+            //        param += mid;
+            //        param += "and this was added to the string.";
+            //        return param;
+            //    };
+            //Console.WriteLine(lambda("start of string"));
+            //Func<string, string> ddd = param =>
+            //    {
+            //        param += "ddd";
+            //        return param;
+            //    };
+            //Console.WriteLine(ddd("aaaaa"));
             //<-----------匿名方法、网络实例----------->
             //List<string> names = new List<string>();
             //names.Add("Sunny Chen");
