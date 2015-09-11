@@ -11,7 +11,7 @@ namespace ChapterNine
         public double Y { set; get; }
         public double Z { set; get; }
 
-        public string ToString()
+        public override string ToString()
         {
             string result = string.Format("(X:{0},Y:{1},Z:{2})",X,Y,Z);
             return result;
@@ -27,9 +27,18 @@ namespace ChapterNine
             switch (formatUpper)
             { 
                 case "N":
-                    return "||" + Norm() + "||";
+                    return "||" + Norm().ToString() + "||";
                 case "VE":
-                    return String.Format("()");
+                    return String.Format("({0:E},{1:E},{2:E})",X,Y,Z);
+                case "IJK":
+                    StringBuilder sb = new StringBuilder(X.ToString(),30);
+                    sb.AppendFormat("i+");
+                    sb.AppendFormat(Y.ToString());
+                    sb.AppendFormat("j+");
+                    sb.AppendFormat(Z.ToString());
+                    return sb.ToString();
+                default:
+                    return ToString();
             }
         }
 
