@@ -7,9 +7,13 @@ namespace ChapterTen
 {
     class Program
     {
+        public static void test(int i=0) 
+        {
+            Console.WriteLine(i);
+        }
         static void Main(string[] args)
         {
-
+            test(2);
         }
     }
 }
