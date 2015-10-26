@@ -1,41 +1,6 @@
 
  
-记录时间：2015-10-26 15:27:47,435 
-线程ID:[1] 
-日志级别：  ERROR 
-出错类：Log4Net_Test.Program property: [(null)] - 
-错误描述：ddddd
- 
-
- 
-记录时间：Log4Net-Test.exea 
- 2015-10-26 15:44:01,537 
-线程ID:[1] 
-日志级别：  ERROR 
-出错类：Log4Net_Test.Program property: [(null)] - 
-错误描述：ddddd
- 
-
- 
-记录时间：Log4Net-Test.exesd 
- 2015-10-26 15:54:09,218 
-线程ID:[1] 
-日志级别：  ERROR 
-出错类：Log4Net_Test.Program property: [(null)] - 
-错误描述：ddddd
- 
-
- 
-记录时间：1sd 
- 2015-10-26 15:54:28,518 
-线程ID:[1] 
-日志级别：  ERROR 
-出错类：Log4Net_Test.Program property: [(null)] - 
-错误描述：ddddd
- 
-
- 
-记录时间：1sd  2015-10-26 15:57:49,904 
+记录时间： 2015-10-26 17:39:30,824 
 线程ID:[1] 
 日志级别：  ERROR 
 出错类：Log4Net_Test.Program property: [(null)] - 
