@@ -1,0 +1,9 @@
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\obj\x86\Debug\Log4Net-Test.csprojResolveAssemblyReference.cache
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\bin\Debug\Log4Net-Test.exe.config
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\bin\Debug\Log4Net-Test.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\bin\Debug\Log4Net-Test.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\bin\Debug\jiangzhongranLearn.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\bin\Debug\log4net.dll
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\bin\Debug\jiangzhongranLearn.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\obj\x86\Debug\Log4Net-Test.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\Log4Net-Test\obj\x86\Debug\Log4Net-Test.pdb

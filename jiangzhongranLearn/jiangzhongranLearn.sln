@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterNine", "ChapterNine\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterTen", "ChapterTen\ChapterTen.csproj", "{7DF1FDDB-75EB-4E35-9C8D-26039BE2CE1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net-Test", "Log4Net-Test\Log4Net-Test.csproj", "{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,6 +45,10 @@ Global
 		{7DF1FDDB-75EB-4E35-9C8D-26039BE2CE1E}.Debug|x86.Build.0 = Debug|x86
 		{7DF1FDDB-75EB-4E35-9C8D-26039BE2CE1E}.Release|x86.ActiveCfg = Release|x86
 		{7DF1FDDB-75EB-4E35-9C8D-26039BE2CE1E}.Release|x86.Build.0 = Release|x86
+		{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}.Debug|x86.ActiveCfg = Debug|x86
+		{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}.Debug|x86.Build.0 = Debug|x86
+		{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}.Release|x86.ActiveCfg = Release|x86
+		{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
