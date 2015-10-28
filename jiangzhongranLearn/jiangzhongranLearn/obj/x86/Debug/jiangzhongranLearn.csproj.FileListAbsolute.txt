@@ -8,4 +8,3 @@ D:\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jian
 D:\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.pdb
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\bin\Debug\jiangzhongranLearn.exe
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\bin\Debug\jiangzhongranLearn.pdb
-D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Debug\jiangzhongranLearn.csprojResolveAssemblyReference.cache
