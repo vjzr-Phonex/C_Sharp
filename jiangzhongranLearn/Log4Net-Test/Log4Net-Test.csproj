@@ -65,7 +65,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogEnum.cs" />
     <Compile Include="LogHelper.cs" />
+    <Compile Include="LogProvider.cs" />
     <Compile Include="LogTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,7 +82,6 @@
     <Content Include="log4net.dll" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App-test.config" />
     <None Include="App.config" />
     <None Include="Log4Net使用详解\Log4Net使用详解-上.mhtml" />
     <None Include="Log4Net使用详解\Log4Net使用详解-下.mhtml" />
