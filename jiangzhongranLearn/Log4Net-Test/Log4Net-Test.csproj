@@ -80,7 +80,12 @@
     <Content Include="log4net.dll" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App-test.config" />
     <None Include="App.config" />
+    <None Include="Log4Net使用详解\Log4Net使用详解-上.mhtml" />
+    <None Include="Log4Net使用详解\Log4Net使用详解-下.mhtml" />
+    <None Include="Log4Net使用详解\Log4Net的配置详解.mhtml" />
+    <None Include="Log4Net使用详解\Log4Net终结版.mhtml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
