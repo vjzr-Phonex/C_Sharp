@@ -14,41 +14,41 @@ namespace PictureZoom
         public Form1()
         {
             InitializeComponent();
-            this.pb.MouseClick += new MouseEventHandler(MyMouseClick);
-            this.MouseWheel += new MouseEventHandler(MyMouseWheel);
-            //this.pb.Paint +=new PaintEventHandler(pb_Paint);
+            this.pictureBoxBottom.MouseDown +=new MouseEventHandler(pb_MouseDown);
+            this.pictureBoxBottom.MouseUp += new MouseEventHandler(pb_MouseUp);
+            this.KeyDown += new KeyEventHandler(CtrlDown);
+            this.pictureBoxBottom.MouseMove +=new MouseEventHandler(pb_MouseMove);
         }
 
-        private void pb_Paint(object sender, PaintEventArgs e)
+        private void pb_MouseMove(object sender, MouseEventArgs e)
         {
-            Graphics g = e.Graphics;
-            Image image = bit;
-            g.DrawImage(image, new Point(20, 10));
+            this.mousePoint = new Point(e.X, e.Y);
+            selectPartofThePicture(pictureBoxBottom);
         }
 
-        private void MyMouseWheel(object sender, System.Windows.Forms.MouseEventArgs e)
+        private void CtrlDown(object sender, KeyEventArgs e)
         {
-            if (e.Delta > 0)
-            {
-                MessageBox.Show("滚轮向前滚动");
-            }
-            else
-            {
-                MessageBox.Show("滚轮向后滚动");
-            }
+            if(e.KeyData == Keys.Control)
+                selectPartofThePicture(pictureBoxBottom);
+        }
+
+        private void pb_MouseDown(object sender, MouseEventArgs e) 
+        {
+        }
+
+        private void pb_MouseUp(object sender, MouseEventArgs e)
+        {
+            deleteZoomPicture();
         }
 
         private void MyMouseClick(object sender, System.Windows.Forms.MouseEventArgs e)
         {
-            selectPartofThePicture(pb);
+            
             if (e.Button == MouseButtons.Right || e.Button == MouseButtons.Left)
             {
                 Point p = MousePosition;//获取位置
                 //其他需要执行的代码
-
             }
-
         }
-
     }
 }
