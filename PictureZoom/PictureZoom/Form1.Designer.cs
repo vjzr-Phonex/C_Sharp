@@ -1,6 +1,7 @@
 ﻿using System.Windows.Forms;
 using System.Drawing;
 using System.Threading;
+using System.Drawing.Drawing2D;
 namespace PictureZoom
 {
     partial class Form1 : Form
@@ -37,7 +38,7 @@ namespace PictureZoom
             pictureBoxBottom.MinimumSize = new Size(500,500);//背景图片最小规格
             pictureBoxBottom.Location = new Point(0, 0);//背景图片左上角起始点
             pictureBoxBottom.SizeMode = PictureBoxSizeMode.Zoom;//设置背景图片跟随缩放
-            pictureBoxBottom.Image = Image.FromFile(@"D:\aaa.jpg");//背景图片巨绝对地址
+            pictureBoxBottom.Image = Image.FromFile(@"D:\Phoenix\Desktop\aaa.jpg");//背景图片巨绝对地址
             this.Controls.Add(pictureBoxBottom);//添加背景图片
                        
         }
@@ -45,13 +46,44 @@ namespace PictureZoom
         public void selectPartofThePicture(PictureBox pictureBoxBottom)
         {
             Graphics g = Graphics.FromImage(bitMap);
-            g.DrawImage(pictureBoxBottom.Image, new Rectangle(0, 0, 300, 300), new Rectangle(mousePoint.X-30, mousePoint.Y, 75, 75), GraphicsUnit.Pixel);
+            int x = (int)(mousePoint.X * 1.6) - 25;
+            int y = (int)(mousePoint.Y * 1.6) - 160;
+            g.DrawImage(pictureBoxBottom.Image, new Rectangle(0, 0, 300, 300), new Rectangle(x, y, 200, 200), GraphicsUnit.Pixel);
+
+
             
-            pictureBoxFront.Location = new Point(mousePoint.X+20,mousePoint.Y-60);
-            pictureBoxBottom.Size = new Size(75,75);
+            //pictureBoxFront.Location = new Point(mousePoint.X+20,mousePoint.Y-80);
+            pictureBoxFront.Location = getPictureBoxFrontLocation();
+            pictureBoxFront.Size = new Size(100, 100);
+            pictureBoxFront.BorderStyle = BorderStyle.FixedSingle;
             pictureBoxFront.Image = bitMap;
-            
             pictureBoxFront.Parent = pictureBoxBottom;
+        }
+
+        public Point getPictureBoxFrontLocation()
+        { 
+            Point re = new Point();
+            if (500 - mousePoint.X < 130 && mousePoint.Y < 110)
+            {
+                re.X = mousePoint.X - 120;
+                re.Y = mousePoint.Y + 20;
+            }
+            else if (500 - mousePoint.X < 130 && mousePoint.Y>=110)
+            {
+                re.X = mousePoint.X - 120;
+                re.Y = mousePoint.Y - 80;
+            }
+            else if (500 - mousePoint.X >= 130 && mousePoint.Y < 110)
+            {
+                re.X = mousePoint.X + 20;
+                re.Y = mousePoint.Y + 20;
+            }
+            else
+            {
+                re = new Point(mousePoint.X + 20, mousePoint.Y - 80);
+            }
+
+            return re;
         }
 
         public void deleteZoomPicture()
