@@ -52,7 +52,6 @@ namespace PictureZoom
 
 
             
-            //pictureBoxFront.Location = new Point(mousePoint.X+20,mousePoint.Y-80);
             pictureBoxFront.Location = getPictureBoxFrontLocation();
             pictureBoxFront.Size = new Size(100, 100);
             pictureBoxFront.BorderStyle = BorderStyle.FixedSingle;
