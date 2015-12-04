@@ -13,7 +13,7 @@ namespace ChapterTen
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("abc".CompareTo("abd"));
+            //Console.WriteLine("abc".CompareTo("abd"));
         }
     }
 }
