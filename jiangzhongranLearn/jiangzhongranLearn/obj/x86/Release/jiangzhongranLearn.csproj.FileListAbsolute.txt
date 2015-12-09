@@ -1,0 +1,4 @@
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\bin\Release\jiangzhongranLearn.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\bin\Release\jiangzhongranLearn.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Release\jiangzhongranLearn.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\jiangzhongranLearn\obj\x86\Release\jiangzhongranLearn.pdb
