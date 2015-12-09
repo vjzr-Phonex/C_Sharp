@@ -18,6 +18,8 @@ namespace ChapterTen
             //    Console.WriteLine("第"+i+"个"+racers[i]);
             //}
             racers.ForEach(Console.WriteLine);
+            int index = racers.FindIndex(FindCoutryFinland);
+            Console.WriteLine(index);
         }
 
         public static void AddRacers()
@@ -33,6 +35,13 @@ namespace ChapterTen
                 new Racer(14,"Niki","Lauda","Austria",25),
                 new Racer(27,"Alain","Porst","France",51)});
             racers.Insert(2, new Racer(10, "lilei", "hanmeimei", "China", 2));
+        }
+
+        public static bool FindCoutryFinland(Racer racer)
+        {
+            if (racer == null)
+                throw new ArgumentException("Racer Null");
+            return racer.Country == "Finland";
         }
     }
 }
