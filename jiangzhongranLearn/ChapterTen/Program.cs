@@ -11,11 +11,13 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-            for (int i = 0; i < racers.Count();i++ )
-            {
-                Console.WriteLine(racers[i]);
-            }
-            Console.WriteLine();
+            AddRacers();
+            //racers.RemoveRange(2,3);
+            //for (int i = 0; i < racers.Count();i++ )
+            //{
+            //    Console.WriteLine("第"+i+"个"+racers[i]);
+            //}
+            racers.ForEach(Console.WriteLine);
         }
 
         public static void AddRacers()
