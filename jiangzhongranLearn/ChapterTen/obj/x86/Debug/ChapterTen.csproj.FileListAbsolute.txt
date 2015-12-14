@@ -2,3 +2,4 @@ D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\bin\Debug\ChapterT
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\bin\Debug\ChapterTen.pdb
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\obj\x86\Debug\ChapterTen.exe
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\obj\x86\Debug\ChapterTen.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\obj\x86\Debug\ChapterTen.csprojResolveAssemblyReference.cache
