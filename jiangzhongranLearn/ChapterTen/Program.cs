@@ -13,23 +13,33 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-/*List 相关代码
-                        AddRacers();
-                        racers.ForEach(Console.WriteLine);
-                        int index = racers.FindIndex(FindCoutryFinland);
-                        Console.WriteLine(index);
-                        ReadOnlyCollection<Racer> readOnly = racers.AsReadOnly();
-                        try
-                        {
-                            readOnly[2].Country = "dddd";
-                            Console.WriteLine(readOnly[2].Country);
-                        }
-                        catch (Exception e) 
-                        {
-                            Console.WriteLine(e.ToString());
-                        }
-* */
-/*Queue相关代码
+
+        }
+
+
+
+        //List 相关代码
+        public static void ListTest()
+        {
+            AddRacers();
+            racers.ForEach(Console.WriteLine);
+            int index = racers.FindIndex(FindCoutryFinland);
+            Console.WriteLine(index);
+            ReadOnlyCollection<Racer> readOnly = racers.AsReadOnly();
+            try
+            {
+                readOnly[2].Country = "dddd";
+                Console.WriteLine(readOnly[2].Country);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+        }
+
+        //Queue相关代码
+        public static void QueueTest()
+        {
             DocumentManager dm = new DocumentManager();
             ProcessDocuments.Start(dm);
             for (int i = 0; i < 1000;i++ )
@@ -39,9 +49,11 @@ namespace ChapterTen
                 Console.WriteLine("Added document {0}",doc.Title);
                 Thread.Sleep(new Random().Next(20));
             }
- * */
+        }
 
-/*Stack相关代码
+        //Stack相关代码
+        public static void StackTest()
+        {
             Stack<Char> stack = new Stack<char>();
             stack.Push('A');
             stack.Push('B');
@@ -51,9 +63,6 @@ namespace ChapterTen
             {
                 Console.WriteLine(tmp);
             }
- * */
-
-
         }
 
         //List
