@@ -13,10 +13,29 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-
+            SortedListTest();
         }
 
+        //DictionaryTest
+        public static void DictionaryTest()
+        { 
+            
+        }
 
+        //SortedListTest
+        public static void SortedListTest()
+        { 
+            var books = new SortedList<string,string>();
+            books.Add("c#","ABCDE");
+            books.Add("java","GFHND");
+
+            Console.WriteLine(books["c#"]);
+
+            foreach(KeyValuePair<string,string> book in books)
+            {
+                Console.WriteLine("{0},{1}",book.Key,book.Value);
+            }
+        }
 
         //List 相关代码
         public static void ListTest()
