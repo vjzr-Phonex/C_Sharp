@@ -16,11 +16,12 @@ namespace ChapterTen
             if (id == null)
                 throw new ArgumentException("ID is wrong!");
             this.prefix = (id.ToUpper())[0];
-            int numLength = id.Length;
+            int numLength = id.Length ;
 
             try
             {
-                number = int.Parse(id.Substring(1, numLength > 6 ? 6 : numLength));
+                int subLength = numLength > 6 ? 6 : numLength;
+                number = int.Parse(id.Substring(1, subLength - 1));
             }
             catch (FormatException)
             {
@@ -46,6 +47,15 @@ namespace ChapterTen
         public static bool operator ==(EmployeeId left, EmployeeId right)
         {
             return left.Equals(right);
+        }
+
+        public bool Equals(EmployeeId other)
+        {
+            if (other == null)
+            {
+                return false;
+            }
+            return (prefix == other.prefix && number == other.number);
         }
 
         public static bool operator !=(EmployeeId left, EmployeeId right)

@@ -13,15 +13,18 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-            SortedListTest();
+            DictionaryTest();
         }
-
-
 
         //DictionaryTest
         public static void DictionaryTest()
         { 
-            
+            var employees = new Dictionary<EmployeeId,Employee>(31);
+
+            var idKyle = new EmployeeId("T3755");
+            var kyle = new Employee(idKyle,"Kyle Bush",5443890.00m);
+            employees.Add(idKyle,kyle);
+            Console.WriteLine(kyle);
         }
 
         //SortedListTest
