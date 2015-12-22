@@ -13,7 +13,32 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-            DictionaryTest();
+            SortedList<int, string> sortedList = new SortedList<int, string>();
+            sortedList.Add(4,"a");
+            sortedList.Add(2,"d");
+            sortedList.Add(3,"q");
+            sortedList.Add(1,"e");
+            foreach(KeyValuePair<int,string> kv in sortedList)
+            {
+                Console.WriteLine("Key:"+kv.Key+" Value:"+kv.Value);
+            }
+        }
+
+        //LookupTest
+        public static void LookupTest()
+        {
+            var racers = new List<Racer>();
+            racers.Add(new Racer(0,"Jacques","Villeneuve","Canada",11));
+            racers.Add(new Racer(1,"Alan","Jones","Australia",12));
+            racers.Add(new Racer(2, "Jackie", "Stuwart", "United Kindom", 27));
+            racers.Add(new Racer(3, "James", "Hunt", "United Kindom", 10));
+            racers.Add(new Racer(4, "Jack", "Brabham", "Australia", 14));
+
+            var lookupRacers = racers.ToLookup(r => r.Country);
+            foreach(Racer r in lookupRacers["Australia"])
+            {
+                Console.WriteLine(r);
+            }
         }
 
         //DictionaryTest
