@@ -13,14 +13,26 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
+
+        }
+
+        //SortedSet
+        public static void SortedSet()
+        { 
+            
+        }
+
+        //SortedList
+        public static void SortedListTest()
+        {
             SortedList<int, string> sortedList = new SortedList<int, string>();
-            sortedList.Add(4,"a");
-            sortedList.Add(2,"d");
-            sortedList.Add(3,"q");
-            sortedList.Add(1,"e");
-            foreach(KeyValuePair<int,string> kv in sortedList)
+            sortedList.Add(4, "a");
+            sortedList.Add(2, "d");
+            sortedList.Add(3, "q");
+            sortedList.Add(1, "e");
+            foreach (KeyValuePair<int, string> kv in sortedList)
             {
-                Console.WriteLine("Key:"+kv.Key+" Value:"+kv.Value);
+                Console.WriteLine("Key:" + kv.Key + " Value:" + kv.Value);
             }
         }
 
