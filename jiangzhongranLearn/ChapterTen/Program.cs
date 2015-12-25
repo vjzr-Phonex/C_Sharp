@@ -16,6 +16,12 @@ namespace ChapterTen
 
         }
 
+        //ObservableCollectionTest
+        public static void ObservableCollectionTest()
+        { 
+            
+        }
+
         //SortedSet
         public static void SortedSet()
         { 
