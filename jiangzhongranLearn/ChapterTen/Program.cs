@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Collections.ObjectModel;
 using System.Threading;
+using System.Collections.Specialized;
 
 namespace ChapterTen
 {
@@ -13,11 +14,25 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-
+            ObservableCollectionTest();
         }
-
+        
         //ObservableCollectionTest
         public static void ObservableCollectionTest()
+        { 
+            var data = new ObservableCollection<string>();
+            data.Add("One");
+            data.Add("Two");
+            data.Add("Three");
+            data.Insert(1,"$^^$");
+            data.RemoveAt(1);
+            foreach (var tmp in data)
+            {
+                Console.WriteLine(tmp);
+            }
+        }
+
+        public static void DataCollectionChanged(object sender,NotifyCollectionChangedEventArgs e)
         { 
             
         }
@@ -26,20 +41,6 @@ namespace ChapterTen
         public static void SortedSet()
         { 
             
-        }
-
-        //SortedList
-        public static void SortedListTest()
-        {
-            SortedList<int, string> sortedList = new SortedList<int, string>();
-            sortedList.Add(4, "a");
-            sortedList.Add(2, "d");
-            sortedList.Add(3, "q");
-            sortedList.Add(1, "e");
-            foreach (KeyValuePair<int, string> kv in sortedList)
-            {
-                Console.WriteLine("Key:" + kv.Key + " Value:" + kv.Value);
-            }
         }
 
         //LookupTest
