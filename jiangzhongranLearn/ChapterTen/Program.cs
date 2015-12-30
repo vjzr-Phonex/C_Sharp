@@ -14,13 +14,22 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-            ObservableCollectionTest();
+            
+        }
+
+        //BitArrayTest
+        public static void BitArrayTest()
+        { 
+            
         }
         
         //ObservableCollectionTest
         public static void ObservableCollectionTest()
         { 
             var data = new ObservableCollection<string>();
+
+            data.CollectionChanged += new NotifyCollectionChangedEventHandler(DataCollectionChanged);
+            
             data.Add("One");
             data.Add("Two");
             data.Add("Three");
@@ -33,8 +42,30 @@ namespace ChapterTen
         }
 
         public static void DataCollectionChanged(object sender,NotifyCollectionChangedEventArgs e)
-        { 
-            
+        {
+            Console.WriteLine("action:{0}",e.Action.ToString());
+            if (e.OldItems != null)
+            {
+                Console.WriteLine("starting index for old item(s) : {0}",
+                    e.OldStartingIndex);
+                Console.WriteLine("Old item(s):");
+                foreach(var item in e.OldItems)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+
+            if(e.NewItems != null)
+            {
+                Console.WriteLine("starting index for new item(s) : {0}",
+                    e.NewStartingIndex);
+                Console.WriteLine("new item(s):");
+                foreach(var item in e.NewItems)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+            Console.WriteLine();
         }
 
         //SortedSet
