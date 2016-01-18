@@ -5,6 +5,8 @@ using System.Text;
 using System.Collections.ObjectModel;
 using System.Threading;
 using System.Collections.Specialized;
+using System.Collections;
+using System.Collections.Concurrent;
 
 namespace ChapterTen
 {
@@ -14,13 +16,43 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
+            BitVector32Test();
+        }
+
+        //ConcurrentCollectionTest
+        public static void ConcurrentCollectionTest()
+        { 
             
+        }
+
+        //BitVector32Test
+        public static void BitVector32Test()
+        {
+            var bits = new BitVector32();
+            int bit1 = BitVector32.CreateMask();
+            int bit2 = BitVector32.CreateMask(bit1);
+            int bit3 = BitVector32.CreateMask(bit2);
+            bits[3] = true;
+            Console.WriteLine(bits);
+
         }
 
         //BitArrayTest
         public static void BitArrayTest()
-        { 
-            
+        {
+            var tmp = new BitArray(8);
+            var tmp1 = new BitArray(8);
+            tmp1.SetAll(true);
+            tmp.SetAll(false);
+            foreach(bool tm in tmp)
+            {
+                Console.WriteLine(tm);
+            }
+            foreach (bool tm in tmp1)
+            {
+                Console.WriteLine(tm);
+            }
+            Console.WriteLine();
         }
         
         //ObservableCollectionTest
