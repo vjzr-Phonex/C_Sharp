@@ -16,13 +16,29 @@ namespace ChapterTen
 
         static void Main(string[] args)
         {
-            BitVector32Test();
+            BlockingCollectionTest();
+        }
+
+        //BlockingCollectionTest
+        public static void BlockingCollectionTest()
+        {
+            var sharedCollection = new BlockingCollection<int>();
+            var events = new ManualResetEventSlim[2];
+            var waits = new WaitHandle[2];
+
         }
 
         //ConcurrentCollectionTest
         public static void ConcurrentCollectionTest()
-        { 
-            
+        {
+            ConcurrentBag<string> bag = new ConcurrentBag<string>();
+            bag.Add("just a test!");
+            bag.Add("abc");
+            bag.Add("ARCAS");
+            string result;
+            bag.TryPeek(out result);
+            Console.WriteLine(result);
+            BlockingCollection<string> collection = new BlockingCollection<string>();
         }
 
         //BitVector32Test
