@@ -1,0 +1,4 @@
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\SocketClient\bin\Debug\SocketClient.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\SocketClient\bin\Debug\SocketClient.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\SocketClient\obj\x86\Debug\SocketClient.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\SocketClient\obj\x86\Debug\SocketClient.pdb

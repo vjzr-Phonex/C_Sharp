@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterTen", "ChapterTen\Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net-Test", "Log4Net-Test\Log4Net-Test.csproj", "{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "Socket\SocketServer.csproj", "{33080837-D79F-4C3B-B2DC-E42977C1BF20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{891FC931-7FAB-4AD0-BB84-682E9F57CD05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +53,14 @@ Global
 		{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}.Debug|x86.Build.0 = Debug|x86
 		{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}.Release|x86.ActiveCfg = Release|x86
 		{CEA30B10-E35D-45CF-8289-BF5BC20A1D73}.Release|x86.Build.0 = Release|x86
+		{33080837-D79F-4C3B-B2DC-E42977C1BF20}.Debug|x86.ActiveCfg = Debug|x86
+		{33080837-D79F-4C3B-B2DC-E42977C1BF20}.Debug|x86.Build.0 = Debug|x86
+		{33080837-D79F-4C3B-B2DC-E42977C1BF20}.Release|x86.ActiveCfg = Release|x86
+		{33080837-D79F-4C3B-B2DC-E42977C1BF20}.Release|x86.Build.0 = Release|x86
+		{891FC931-7FAB-4AD0-BB84-682E9F57CD05}.Debug|x86.ActiveCfg = Debug|x86
+		{891FC931-7FAB-4AD0-BB84-682E9F57CD05}.Debug|x86.Build.0 = Debug|x86
+		{891FC931-7FAB-4AD0-BB84-682E9F57CD05}.Release|x86.ActiveCfg = Release|x86
+		{891FC931-7FAB-4AD0-BB84-682E9F57CD05}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
