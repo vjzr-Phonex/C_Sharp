@@ -40,6 +40,7 @@ namespace SocketServer
             Console.WriteLine("Start Server!");
             Socket client = socketServer.Accept();
             Console.WriteLine("Connect Success!");
+            handler.sendMessage();
         }
 
         public void StopServer()
