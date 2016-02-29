@@ -1,0 +1,4 @@
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterNine\bin\Release\ChapterNine.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterNine\bin\Release\ChapterNine.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterNine\obj\x86\Release\ChapterNine.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterNine\obj\x86\Release\ChapterNine.pdb

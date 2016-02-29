@@ -1,0 +1,4 @@
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\bin\Release\ChapterTen.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\bin\Release\ChapterTen.pdb
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\obj\x86\Release\ChapterTen.exe
+D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterTen\obj\x86\Release\ChapterTen.pdb
