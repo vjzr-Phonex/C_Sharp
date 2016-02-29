@@ -37,7 +37,7 @@ namespace PictureZoom
             pictureBoxBottom.MinimumSize = new Size(500,500);//背景图片最小规格
             pictureBoxBottom.Location = new Point(0, 0);//背景图片左上角起始点
             pictureBoxBottom.SizeMode = PictureBoxSizeMode.Zoom;//设置背景图片跟随缩放
-            pictureBoxBottom.Image = Image.FromFile(@"D:\aaa.jpg");//背景图片巨绝对地址
+            pictureBoxBottom.Image = Image.FromFile(@"D:\aaa.png");//背景图片巨绝对地址
             this.Controls.Add(pictureBoxBottom);//添加背景图片
                        
         }
@@ -45,7 +45,7 @@ namespace PictureZoom
         public void selectPartofThePicture(PictureBox pictureBoxBottom)
         {
             Graphics g = Graphics.FromImage(bitMap);
-            g.DrawImage(pictureBoxBottom.Image, new Rectangle(0, 0, 300, 300), new Rectangle(mousePoint.X-30, mousePoint.Y, 75, 75), GraphicsUnit.Pixel);
+            g.DrawImage(pictureBoxBottom.Image, new Rectangle(0, 0, 300, 300), new Rectangle(mousePoint.X - 8, mousePoint.Y-57, 75, 75), GraphicsUnit.Pixel);
             
             pictureBoxFront.Location = new Point(mousePoint.X+20,mousePoint.Y-60);
             pictureBoxBottom.Size = new Size(75,75);
