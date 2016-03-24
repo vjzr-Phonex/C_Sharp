@@ -1,0 +1,15 @@
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\bin\Debug\LocalAuthWinBoeRelSys.exe
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\bin\Debug\LocalAuthWinBoeRelSys.pdb
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\MainWindow.baml
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\MainWindow.g.cs
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\App.g.cs
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\LocalAuthWinBoeRelSys_MarkupCompile.cache
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\LocalAuthWinBoeRelSys.g.resources
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\LocalAuthWinBoeRelSys.Properties.Resources.resources
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\LocalAuthWinBoeRelSys.csproj.GenerateResource.Cache
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\LocalAuthWinBoeRelSys.exe
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\LocalAuthWinBoeRelSys.pdb
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\FingerPrint.baml
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\Password.baml
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\FingerPrint.g.cs
+E:\WorkSpace\GoSoap\Test\LocalAuthWinBoeRelSys\LocalAuthWinBoeRelSys\obj\x86\Debug\Password.g.cs
