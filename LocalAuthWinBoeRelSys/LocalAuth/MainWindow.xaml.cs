@@ -12,22 +12,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LocalAuthWinBoeRelSys
+namespace LocalAuth
 {
     /// <summary>
-    /// Password.xaml 的交互逻辑
+    /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class Password : UserControl
+    public partial class MainWindow : Window
     {
-        public Password()
+        public MainWindow()
         {
             InitializeComponent();
-        }
-
-        public void setAuthLevel(string authLevel1, string authLevel2)
-        {
-            this.Tip.Text = "需要" + authLevel1 + "+" + authLevel2 + "授权";
-            this.Tip.FontSize = 14;
         }
     }
 }

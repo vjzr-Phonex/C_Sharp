@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace LocalAuthWinBoeRelSys
 {
@@ -22,6 +23,9 @@ namespace LocalAuthWinBoeRelSys
         public MainWindow()
         {
             InitializeComponent();
+            Password passwordWindow = new Password();
+            passwordWindow.setAuthLevel("3","3");
+            this.stackPanel.Children.Add(passwordWindow);
         }
     }
 }
