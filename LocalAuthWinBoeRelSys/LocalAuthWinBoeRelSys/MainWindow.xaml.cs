@@ -20,12 +20,51 @@ namespace LocalAuthWinBoeRelSys
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Password passwordWindow = new Password();
+        private FingerPrint fingerPrintWindow = new FingerPrint();
+
         public MainWindow()
         {
             InitializeComponent();
-            Password passwordWindow = new Password();
-            passwordWindow.setAuthLevel("3","3");
+            this.passwordWindow.setAuthLevel("3", "3");
             this.stackPanel.Children.Add(passwordWindow);
+        }
+
+        private void SelectPassword(object sender, RoutedEventArgs e)
+        {
+            this.stackPanel.Children.RemoveAt(0);
+            this.passwordWindow.setAuthLevel("3", "3");
+            this.stackPanel.Children.Add(passwordWindow);
+        }
+
+        private void SelectFingerPrint(object sender, RoutedEventArgs e)
+        {
+            this.stackPanel.Children.RemoveAt(0);
+            this.fingerPrintWindow.setAuthLevel("3", "0");
+            this.stackPanel.Children.Add(fingerPrintWindow);
+        }
+
+        private void Submit(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Cancle(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+
+        public LocalAuthWinBoeRelSys.Password PasswordWindow
+        {
+            get { return passwordWindow; }
+            set { passwordWindow = value; }
+        }
+
+        public LocalAuthWinBoeRelSys.FingerPrint FingerPrintWindow
+        {
+            get { return fingerPrintWindow; }
+            set { fingerPrintWindow = value; }
         }
     }
 }
