@@ -19,12 +19,13 @@ namespace LocalAuthWinBoeRelSys
     /// </summary>
     public partial class Password : UserControl
     {
+
         public Password()
         {
             InitializeComponent();
         }
 
-        public void setAuthLevel(string authLevel1, string authLevel2)
+        public void SetAuthLevel(string authLevel1, string authLevel2)
         {
             this.Tip.Text = "需要" + authLevel1 + "+" + authLevel2 + "授权";
             this.Tip.FontSize = 14;

@@ -39,7 +39,7 @@
         <TextBlock Grid.Row="3" Grid.Column="7" Margin="0,20,0,15" Text="主管一指纹：" FontSize="16"/>
         <TextBlock Grid.Row="5" Grid.Column="7" Margin="0,20,0,15" Text="主管二指纹：" FontSize="16"/>
 
-        <Button Grid.Row="3" Grid.Column="9" Margin="10,17,10,13" Content="点击录入指纹" x:Name="fingerPrint1"/>
-        <Button Grid.Row="5" Grid.Column="9" Margin="10,17,10,13" Content="点击录入指纹" x:Name="fingerPrint2"/>
+        <Button Grid.Row="3" Grid.Column="9" Margin="10,17,10,13" Content="点击录入指纹" x:Name="fingerPrint1" Click="inputFingerPrint2"/>
+        <Button Grid.Row="5" Grid.Column="9" Margin="10,17,10,13" Content="点击录入指纹" x:Name="fingerPrint2" Click="inputFingerPrint2"/>
     </Grid>
 </UserControl>

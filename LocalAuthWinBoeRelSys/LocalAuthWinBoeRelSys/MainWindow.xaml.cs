@@ -26,21 +26,21 @@ namespace LocalAuthWinBoeRelSys
         public MainWindow()
         {
             InitializeComponent();
-            this.passwordWindow.setAuthLevel("3", "3");
+            this.passwordWindow.SetAuthLevel("3", "3");
             this.stackPanel.Children.Add(passwordWindow);
         }
 
         private void SelectPassword(object sender, RoutedEventArgs e)
         {
             this.stackPanel.Children.RemoveAt(0);
-            this.passwordWindow.setAuthLevel("3", "3");
+            this.passwordWindow.SetAuthLevel("3", "3");
             this.stackPanel.Children.Add(passwordWindow);
         }
 
         private void SelectFingerPrint(object sender, RoutedEventArgs e)
         {
             this.stackPanel.Children.RemoveAt(0);
-            this.fingerPrintWindow.setAuthLevel("3", "0");
+            this.fingerPrintWindow.SetAuthLevel("3", "0");
             this.stackPanel.Children.Add(fingerPrintWindow);
         }
 
