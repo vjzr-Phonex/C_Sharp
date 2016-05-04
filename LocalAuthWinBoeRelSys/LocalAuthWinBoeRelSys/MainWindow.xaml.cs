@@ -30,6 +30,11 @@ namespace LocalAuthWinBoeRelSys
             this.stackPanel.Children.Add(passwordWindow);
         }
 
+        private void M_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            pop.IsOpen = !pop.IsOpen;
+        }
+
         private void SelectPassword(object sender, RoutedEventArgs e)
         {
             this.stackPanel.Children.RemoveAt(0);
@@ -46,7 +51,6 @@ namespace LocalAuthWinBoeRelSys
 
         private void Submit(object sender, RoutedEventArgs e)
         {
-
         }
 
         private void Cancle(object sender, RoutedEventArgs e)

@@ -31,8 +31,12 @@
                         <ColumnDefinition Width="250"/>
                         <ColumnDefinition Width="10"/>
                     </Grid.ColumnDefinitions>
-                    <RadioButton Grid.Column="1" Width="80" FontSize="16" Checked="SelectPassword">密码验证</RadioButton>
-                    <RadioButton Grid.Column="2" Width="80" FontSize="16" Checked="SelectFingerPrint">指纹验证</RadioButton>
+                    <Popup x:Name="pop" >
+                        <Grid Background="Red">
+                        </Grid>
+                    </Popup>
+                    <!-- <RadioButton Grid.Column="1" Width="80" FontSize="16" Checked="SelectPassword">密码验证</RadioButton>
+ -->                   <RadioButton Grid.Column="2" Width="80" FontSize="16" Checked="SelectFingerPrint">指纹验证</RadioButton>
                 </Grid>
             </StackPanel>
          </GroupBox>
