@@ -5,8 +5,11 @@ using System.Text;
 
 namespace ChapterEleven_LINQ
 {
-    class test : Racer
+    class Team
     {
-
+        public Team(string name, params int[] years)
+        { 
+            
+        }
     }
 }
