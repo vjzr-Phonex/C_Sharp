@@ -2,4 +2,3 @@ D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterEleven-LINQ\bin\Debug\
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterEleven-LINQ\bin\Debug\ChapterEleven-LINQ.pdb
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterEleven-LINQ\obj\x86\Debug\ChapterEleven-LINQ.exe
 D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterEleven-LINQ\obj\x86\Debug\ChapterEleven-LINQ.pdb
-D:\Phoenix\WorkSpace-C#\C_Sharp\jiangzhongranLearn\ChapterEleven-LINQ\obj\x86\Debug\ChapterEleven-LINQ.csprojResolveAssemblyReference.cache
