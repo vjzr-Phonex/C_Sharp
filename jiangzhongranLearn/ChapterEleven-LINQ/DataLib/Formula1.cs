@@ -69,6 +69,7 @@ namespace ChapterEleven_LINQ.DataLib
                     new Team("Renault", 2005, 2006 )
                 };
             }
+            return teams;
         }
     }
 }
